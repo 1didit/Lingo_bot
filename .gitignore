@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Python venv (Piper TTS)
+.venv/
+
+# Downloaded voice models (large binaries)
+voices/
+
+# Cached TTS audio
+cache/
+
+# Build output
+dist/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# TTS / audio scratch
+tmp/
+*.ogg
+*.wav
